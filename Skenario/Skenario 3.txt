@@ -1,0 +1,10 @@
+Skenario 3 (PP = Tag Negation & Lemma, All Lexicon):
+C1:
+Unigram = 0.8148
+Bigram = 0.8030
+C2:
+Unigram = 0.8015
+Bigram = 0.7876
+C3:
+1-2 gram + lexicon = 0.8179
+1-2 gram = 0.7998

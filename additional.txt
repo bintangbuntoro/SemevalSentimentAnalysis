@@ -1,0 +1,21 @@
+#train_LX,Y = ms.tweetFeature('Dataset/small-positif.csv','Dataset/small-negatif.csv','1','0')
+#test_LX,Y_test = ms.tweetFeature('Dataset/Testing/small-positif.csv','Dataset/Testing/small-negatif.csv','1','0')
+#train_LX,Y = ms.tweetFeature('Dataset/positif.csv','Dataset/negatif.csv','1','0')
+#test_LX,Y_test = ms.tweetFeature('Dataset/Testing/positif.csv','Dataset/Testing/negatif.csv','1','0')
+
+#train_corpus = ms.createCorpus('Dataset/small-positif.csv','Dataset/small-negatif.csv')
+#test_corpus = ms.createCorpus('Dataset/Testing/small-positif.csv','Dataset/Testing/small-negatif.csv')
+#train_corpus = ms.createCorpus('Dataset/positif.csv','Dataset/negatif.csv')
+#test_corpus = ms.createCorpus('Dataset/Testing/positif.csv','Dataset/Testing/negatif.csv')
+#train_TFIDF = ms.createTfidf(train_corpus,train_corpus,1)
+#test_TFIDF = ms.createTfidf(test_corpus,train_corpus,1)
+
+#data_train = np.concatenate((train_TFIDF, train_LX), axis=1)
+#data_train = np.concatenate((data_train, train_LX), axis=1)
+#data_test = np.concatenate((test_TFIDF, test_LX), axis=1)
+#data_test = np.concatenate((data_test, test_LX), axis=1)
+
+#clf = svmClassifier.fit(data_train, Y)
+#meanAcc = clf.score(data_test, Y_test)
+#Y_pred = clf.predict(data_test)
+#acc, f1 = F1ScoreCalculator.fmeasure(Y_test,Y_pred)

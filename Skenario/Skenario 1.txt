@@ -1,0 +1,5 @@
+Akurasi Data Train & Data Test
+1. All preprocessing = 0.8126
+2. Stopword & Lemma = 0.8134
+3. Tag Negation & Stopword = 0.8070
+4. Tag Negation & Lemma = 0.8148

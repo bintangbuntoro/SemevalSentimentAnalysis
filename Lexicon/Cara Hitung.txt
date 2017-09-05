@@ -1,0 +1,14 @@
+*Afinn*
+Afinn = jumlah skor tiap kata di tweet/ jumlah kata di tweet
+
+*sENTIwORDNET8
+Normalisasi perkata di Sentiwordnet = jumlah PosScore - jumlah NegScore / jumlah kata di kamus
+misal : 
+bad#1 NegScore 0,75 PosScore 0
+bad#2 NegScore 0,125 PosScore 0
+maka (0+0)-(0,75+0,125)/2= -0,875/2= -0,4375 
+Kemudian hitung skor tweet 
+jumlah skor tiap kata di tweet/ jumlah kata di tweet
+
+*Pattern*
+Pattern = jumlah skor tiap kata di tweet/ jumlah kata di tweet

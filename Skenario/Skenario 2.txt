@@ -1,0 +1,8 @@
+Skenario 2 (PP = Tag Negation & Lemma):
+1. Afinn & Pattern = 0.8134
+2. Afinn & Sentiword = 0.8142
+3. Pattern & Sentiword = 0.8055
+4. All Lexicon = 0.8148
+5. Afinn = 0.8130
+6. Pattern = 0.8041
+7. Sentiword = 0.8033
